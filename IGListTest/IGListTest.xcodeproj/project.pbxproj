@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E2D2BF29EA748B008EBFB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2BE29EA748B008EBFB2 /* AppDelegate.m */; };
+		47E2D2C229EA748B008EBFB2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2C129EA748B008EBFB2 /* SceneDelegate.m */; };
+		47E2D2C529EA748B008EBFB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2C429EA748B008EBFB2 /* ViewController.m */; };
+		47E2D2CA29EA748B008EBFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E2D2C929EA748B008EBFB2 /* Assets.xcassets */; };
+		47E2D2CD29EA748B008EBFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E2D2CB29EA748B008EBFB2 /* LaunchScreen.storyboard */; };
+		47E2D2D029EA748B008EBFB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2CF29EA748B008EBFB2 /* main.m */; };
+		47E2D2E229EBC7C7008EBFB2 /* NSObject+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2E129EBC7C7008EBFB2 /* NSObject+IGListDiffable.m */; };
+		47E2D2E529EBC86B008EBFB2 /* MarslinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2E429EBC86B008EBFB2 /* MarslinkModel.m */; };
+		47E2D2E929EBCE66008EBFB2 /* JournalSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2E829EBCE66008EBFB2 /* JournalSectionController.m */; };
+		47E2D2EF29EBD09A008EBFB2 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2EE29EBD09A008EBFB2 /* CustomNavigationBar.m */; };
+		47E2D2F229EBD8A6008EBFB2 /* JournalEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2F129EBD8A6008EBFB2 /* JournalEntryCell.m */; };
+		47E2D2F929EBE3A0008EBFB2 /* JournalEntryDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2F829EBE3A0008EBFB2 /* JournalEntryDateCell.m */; };
+		47E2D2FC29EBE55D008EBFB2 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2FB29EBE55D008EBFB2 /* MessageCell.m */; };
+		47E2D2FF29EBE617008EBFB2 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D2FE29EBE617008EBFB2 /* Utils.m */; };
+		47E2D30229EBE918008EBFB2 /* WeatherDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D30129EBE918008EBFB2 /* WeatherDetailCell.m */; };
+		47E2D30529EBEA19008EBFB2 /* WeatherSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D30429EBEA19008EBFB2 /* WeatherSummaryCell.m */; };
+		47E2D30829EBF1A9008EBFB2 /* MessageSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D30729EBF1A9008EBFB2 /* MessageSectionController.m */; };
+		47E2D30B29EBF2BA008EBFB2 /* WeatherSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D30A29EBF2BA008EBFB2 /* WeatherSectionController.m */; };
+		47E2D30E29EBF6D5008EBFB2 /* JournalEntryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D30D29EBF6D5008EBFB2 /* JournalEntryLoader.m */; };
+		47E2D31129EBF9AA008EBFB2 /* Pathfinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D31029EBF9AA008EBFB2 /* Pathfinder.m */; };
+		47E2D31429EC0301008EBFB2 /* ClassicFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D31329EC0301008EBFB2 /* ClassicFeedViewController.m */; };
+		47E2D31729EC106F008EBFB2 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E2D31629EC106F008EBFB2 /* FeedViewController.m */; };
+		47E2D31929EC230C008EBFB2 /* OCRAStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 47E2D31829EC230C008EBFB2 /* OCRAStd.otf */; };
+		F5378C39B6FED5E35C65CC68 /* Pods_IGListTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626B2E40AAC4D9C1588CE918 /* Pods_IGListTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462409AC0C29A7BC00F870CE /* Pods-IGListTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListTest.release.xcconfig"; path = "Target Support Files/Pods-IGListTest/Pods-IGListTest.release.xcconfig"; sourceTree = "<group>"; };
+		47E2D2BA29EA748B008EBFB2 /* IGListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E2D2BD29EA748B008EBFB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47E2D2BE29EA748B008EBFB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47E2D2C029EA748B008EBFB2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		47E2D2C129EA748B008EBFB2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		47E2D2C329EA748B008EBFB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47E2D2C429EA748B008EBFB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47E2D2C929EA748B008EBFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E2D2CC29EA748B008EBFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47E2D2CE29EA748B008EBFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E2D2CF29EA748B008EBFB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47E2D2E029EBC7C7008EBFB2 /* NSObject+IGListDiffable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+IGListDiffable.h"; sourceTree = "<group>"; };
+		47E2D2E129EBC7C7008EBFB2 /* NSObject+IGListDiffable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IGListDiffable.m"; sourceTree = "<group>"; };
+		47E2D2E329EBC86B008EBFB2 /* MarslinkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarslinkModel.h; sourceTree = "<group>"; };
+		47E2D2E429EBC86B008EBFB2 /* MarslinkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarslinkModel.m; sourceTree = "<group>"; };
+		47E2D2E729EBCE66008EBFB2 /* JournalSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JournalSectionController.h; sourceTree = "<group>"; };
+		47E2D2E829EBCE66008EBFB2 /* JournalSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JournalSectionController.m; sourceTree = "<group>"; };
+		47E2D2ED29EBD09A008EBFB2 /* CustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		47E2D2EE29EBD09A008EBFB2 /* CustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		47E2D2F029EBD8A6008EBFB2 /* JournalEntryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JournalEntryCell.h; sourceTree = "<group>"; };
+		47E2D2F129EBD8A6008EBFB2 /* JournalEntryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JournalEntryCell.m; sourceTree = "<group>"; };
+		47E2D2F729EBE3A0008EBFB2 /* JournalEntryDateCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JournalEntryDateCell.h; sourceTree = "<group>"; };
+		47E2D2F829EBE3A0008EBFB2 /* JournalEntryDateCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JournalEntryDateCell.m; sourceTree = "<group>"; };
+		47E2D2FA29EBE55D008EBFB2 /* MessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		47E2D2FB29EBE55D008EBFB2 /* MessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		47E2D2FD29EBE617008EBFB2 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		47E2D2FE29EBE617008EBFB2 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		47E2D30029EBE918008EBFB2 /* WeatherDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherDetailCell.h; sourceTree = "<group>"; };
+		47E2D30129EBE918008EBFB2 /* WeatherDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherDetailCell.m; sourceTree = "<group>"; };
+		47E2D30329EBEA19008EBFB2 /* WeatherSummaryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherSummaryCell.h; sourceTree = "<group>"; };
+		47E2D30429EBEA19008EBFB2 /* WeatherSummaryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherSummaryCell.m; sourceTree = "<group>"; };
+		47E2D30629EBF1A9008EBFB2 /* MessageSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSectionController.h; sourceTree = "<group>"; };
+		47E2D30729EBF1A9008EBFB2 /* MessageSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSectionController.m; sourceTree = "<group>"; };
+		47E2D30929EBF2BA008EBFB2 /* WeatherSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherSectionController.h; sourceTree = "<group>"; };
+		47E2D30A29EBF2BA008EBFB2 /* WeatherSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherSectionController.m; sourceTree = "<group>"; };
+		47E2D30C29EBF6D5008EBFB2 /* JournalEntryLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JournalEntryLoader.h; sourceTree = "<group>"; };
+		47E2D30D29EBF6D5008EBFB2 /* JournalEntryLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JournalEntryLoader.m; sourceTree = "<group>"; };
+		47E2D30F29EBF9AA008EBFB2 /* Pathfinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pathfinder.h; sourceTree = "<group>"; };
+		47E2D31029EBF9AA008EBFB2 /* Pathfinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pathfinder.m; sourceTree = "<group>"; };
+		47E2D31229EC0301008EBFB2 /* ClassicFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassicFeedViewController.h; sourceTree = "<group>"; };
+		47E2D31329EC0301008EBFB2 /* ClassicFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassicFeedViewController.m; sourceTree = "<group>"; };
+		47E2D31529EC106F008EBFB2 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		47E2D31629EC106F008EBFB2 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		47E2D31829EC230C008EBFB2 /* OCRAStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAStd.otf; sourceTree = "<group>"; };
+		626B2E40AAC4D9C1588CE918 /* Pods_IGListTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA01E829A183E8FE0B77F05 /* Pods-IGListTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListTest.debug.xcconfig"; path = "Target Support Files/Pods-IGListTest/Pods-IGListTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E2D2B729EA748B008EBFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5378C39B6FED5E35C65CC68 /* Pods_IGListTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170F6081314359CBA4A65991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				626B2E40AAC4D9C1588CE918 /* Pods_IGListTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47E2D2B129EA748B008EBFB2 = {
+			isa = PBXGroup;
+			children = (
+				47E2D2BC29EA748B008EBFB2 /* IGListTest */,
+				47E2D2BB29EA748B008EBFB2 /* Products */,
+				7430752EF76472DE2EAD28B7 /* Pods */,
+				170F6081314359CBA4A65991 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47E2D2BB29EA748B008EBFB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E2D2BA29EA748B008EBFB2 /* IGListTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E2D2BC29EA748B008EBFB2 /* IGListTest */ = {
+			isa = PBXGroup;
+			children = (
+				47E2D31829EC230C008EBFB2 /* OCRAStd.otf */,
+				47E2D2EC29EBCFDF008EBFB2 /* Views */,
+				47E2D2EB29EBCFD5008EBFB2 /* ViewControllers */,
+				47E2D2EA29EBCFC8008EBFB2 /* Systems */,
+				47E2D2E629EBCE39008EBFB2 /* SectionControllers */,
+				47E2D2D929EBC574008EBFB2 /* Models */,
+				47E2D2BD29EA748B008EBFB2 /* AppDelegate.h */,
+				47E2D2BE29EA748B008EBFB2 /* AppDelegate.m */,
+				47E2D2C029EA748B008EBFB2 /* SceneDelegate.h */,
+				47E2D2C129EA748B008EBFB2 /* SceneDelegate.m */,
+				47E2D2C329EA748B008EBFB2 /* ViewController.h */,
+				47E2D2C429EA748B008EBFB2 /* ViewController.m */,
+				47E2D2C929EA748B008EBFB2 /* Assets.xcassets */,
+				47E2D2CB29EA748B008EBFB2 /* LaunchScreen.storyboard */,
+				47E2D2CE29EA748B008EBFB2 /* Info.plist */,
+				47E2D2CF29EA748B008EBFB2 /* main.m */,
+				47E2D2FD29EBE617008EBFB2 /* Utils.h */,
+				47E2D2FE29EBE617008EBFB2 /* Utils.m */,
+			);
+			path = IGListTest;
+			sourceTree = "<group>";
+		};
+		47E2D2D929EBC574008EBFB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47E2D2E029EBC7C7008EBFB2 /* NSObject+IGListDiffable.h */,
+				47E2D2E129EBC7C7008EBFB2 /* NSObject+IGListDiffable.m */,
+				47E2D2E329EBC86B008EBFB2 /* MarslinkModel.h */,
+				47E2D2E429EBC86B008EBFB2 /* MarslinkModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		47E2D2E629EBCE39008EBFB2 /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				47E2D2E729EBCE66008EBFB2 /* JournalSectionController.h */,
+				47E2D2E829EBCE66008EBFB2 /* JournalSectionController.m */,
+				47E2D30629EBF1A9008EBFB2 /* MessageSectionController.h */,
+				47E2D30729EBF1A9008EBFB2 /* MessageSectionController.m */,
+				47E2D30929EBF2BA008EBFB2 /* WeatherSectionController.h */,
+				47E2D30A29EBF2BA008EBFB2 /* WeatherSectionController.m */,
+			);
+			path = SectionControllers;
+			sourceTree = "<group>";
+		};
+		47E2D2EA29EBCFC8008EBFB2 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				47E2D30C29EBF6D5008EBFB2 /* JournalEntryLoader.h */,
+				47E2D30D29EBF6D5008EBFB2 /* JournalEntryLoader.m */,
+				47E2D30F29EBF9AA008EBFB2 /* Pathfinder.h */,
+				47E2D31029EBF9AA008EBFB2 /* Pathfinder.m */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		47E2D2EB29EBCFD5008EBFB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				47E2D31229EC0301008EBFB2 /* ClassicFeedViewController.h */,
+				47E2D31329EC0301008EBFB2 /* ClassicFeedViewController.m */,
+				47E2D31529EC106F008EBFB2 /* FeedViewController.h */,
+				47E2D31629EC106F008EBFB2 /* FeedViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		47E2D2EC29EBCFDF008EBFB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47E2D2ED29EBD09A008EBFB2 /* CustomNavigationBar.h */,
+				47E2D2EE29EBD09A008EBFB2 /* CustomNavigationBar.m */,
+				47E2D2F029EBD8A6008EBFB2 /* JournalEntryCell.h */,
+				47E2D2F129EBD8A6008EBFB2 /* JournalEntryCell.m */,
+				47E2D2F729EBE3A0008EBFB2 /* JournalEntryDateCell.h */,
+				47E2D2F829EBE3A0008EBFB2 /* JournalEntryDateCell.m */,
+				47E2D2FA29EBE55D008EBFB2 /* MessageCell.h */,
+				47E2D2FB29EBE55D008EBFB2 /* MessageCell.m */,
+				47E2D30029EBE918008EBFB2 /* WeatherDetailCell.h */,
+				47E2D30129EBE918008EBFB2 /* WeatherDetailCell.m */,
+				47E2D30329EBEA19008EBFB2 /* WeatherSummaryCell.h */,
+				47E2D30429EBEA19008EBFB2 /* WeatherSummaryCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7430752EF76472DE2EAD28B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA01E829A183E8FE0B77F05 /* Pods-IGListTest.debug.xcconfig */,
+				462409AC0C29A7BC00F870CE /* Pods-IGListTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E2D2B929EA748B008EBFB2 /* IGListTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E2D2D329EA748B008EBFB2 /* Build configuration list for PBXNativeTarget "IGListTest" */;
+			buildPhases = (
+				70F968B63ED00047E099A267 /* [CP] Check Pods Manifest.lock */,
+				47E2D2B629EA748B008EBFB2 /* Sources */,
+				47E2D2B729EA748B008EBFB2 /* Frameworks */,
+				47E2D2B829EA748B008EBFB2 /* Resources */,
+				84827A844E62745D5BA0FA5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGListTest;
+			productName = IGListTest;
+			productReference = 47E2D2BA29EA748B008EBFB2 /* IGListTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E2D2B229EA748B008EBFB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					47E2D2B929EA748B008EBFB2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 47E2D2B529EA748B008EBFB2 /* Build configuration list for PBXProject "IGListTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E2D2B129EA748B008EBFB2;
+			productRefGroup = 47E2D2BB29EA748B008EBFB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E2D2B929EA748B008EBFB2 /* IGListTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E2D2B829EA748B008EBFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E2D2CD29EA748B008EBFB2 /* LaunchScreen.storyboard in Resources */,
+				47E2D2CA29EA748B008EBFB2 /* Assets.xcassets in Resources */,
+				47E2D31929EC230C008EBFB2 /* OCRAStd.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70F968B63ED00047E099A267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGListTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84827A844E62745D5BA0FA5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGListTest/Pods-IGListTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGListTest/Pods-IGListTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IGListTest/Pods-IGListTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E2D2B629EA748B008EBFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E2D2EF29EBD09A008EBFB2 /* CustomNavigationBar.m in Sources */,
+				47E2D2C529EA748B008EBFB2 /* ViewController.m in Sources */,
+				47E2D2E929EBCE66008EBFB2 /* JournalSectionController.m in Sources */,
+				47E2D31429EC0301008EBFB2 /* ClassicFeedViewController.m in Sources */,
+				47E2D30E29EBF6D5008EBFB2 /* JournalEntryLoader.m in Sources */,
+				47E2D2FF29EBE617008EBFB2 /* Utils.m in Sources */,
+				47E2D31729EC106F008EBFB2 /* FeedViewController.m in Sources */,
+				47E2D30829EBF1A9008EBFB2 /* MessageSectionController.m in Sources */,
+				47E2D30229EBE918008EBFB2 /* WeatherDetailCell.m in Sources */,
+				47E2D30529EBEA19008EBFB2 /* WeatherSummaryCell.m in Sources */,
+				47E2D31129EBF9AA008EBFB2 /* Pathfinder.m in Sources */,
+				47E2D2BF29EA748B008EBFB2 /* AppDelegate.m in Sources */,
+				47E2D2E229EBC7C7008EBFB2 /* NSObject+IGListDiffable.m in Sources */,
+				47E2D2D029EA748B008EBFB2 /* main.m in Sources */,
+				47E2D2F929EBE3A0008EBFB2 /* JournalEntryDateCell.m in Sources */,
+				47E2D2E529EBC86B008EBFB2 /* MarslinkModel.m in Sources */,
+				47E2D2FC29EBE55D008EBFB2 /* MessageCell.m in Sources */,
+				47E2D2C229EA748B008EBFB2 /* SceneDelegate.m in Sources */,
+				47E2D30B29EBF2BA008EBFB2 /* WeatherSectionController.m in Sources */,
+				47E2D2F229EBD8A6008EBFB2 /* JournalEntryCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47E2D2CB29EA748B008EBFB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E2D2CC29EA748B008EBFB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47E2D2D129EA748B008EBFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47E2D2D229EA748B008EBFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E2D2D429EA748B008EBFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA01E829A183E8FE0B77F05 /* Pods-IGListTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZGMLVXUH2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IGListTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuruixuan.IGListTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47E2D2D529EA748B008EBFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462409AC0C29A7BC00F870CE /* Pods-IGListTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZGMLVXUH2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IGListTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuruixuan.IGListTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E2D2B529EA748B008EBFB2 /* Build configuration list for PBXProject "IGListTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E2D2D129EA748B008EBFB2 /* Debug */,
+				47E2D2D229EA748B008EBFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E2D2D329EA748B008EBFB2 /* Build configuration list for PBXNativeTarget "IGListTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E2D2D429EA748B008EBFB2 /* Debug */,
+				47E2D2D529EA748B008EBFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47E2D2B229EA748B008EBFB2 /* Project object */;
+}
