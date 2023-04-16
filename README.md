@@ -1,2 +1,4 @@
 # MarsLink_Final_OCSample
 官方IGListKit教程的OC版本
+
+暂时写了个出版，里面还有小问题，欢迎对IGListKit感兴趣的developer提issue或者fork
