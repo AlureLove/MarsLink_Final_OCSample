@@ -75,7 +75,9 @@
 
 - (void)didSelectItemAtIndex:(NSInteger)index {
     self.expanded = !self.expanded;
-    [self.collectionContext invalidateLayoutForSectionController:self completion:nil];
+    [self.collectionContext performBatchAnimated:YES updates:^(id<IGListBatchContext>  _Nonnull batchContext) {
+            [batchContext reloadSectionController:self];
+    } completion:nil];
 }
 
 @end
