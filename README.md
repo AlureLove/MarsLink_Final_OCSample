@@ -1,6 +1,6 @@
 # MarsLink_Final_OCSample
-官方IGListKit教程的OC版本&Swift5版本
+This is an Objective-C and Swift 5 version of the official **IGListKit** tutorial.
 
-暂时写了个出版，里面还有小问题，欢迎对IGListKit感兴趣的developer提issue或者fork
+The current version is a draft and may contain some issues. Developers who are interested in IGListKit are welcome to **open issues** or **fork** the project for further improvement.
 
-补了一个最新Swift5的版本，以前教程中是Swift3 很多api已经废弃或者被替换了，这次使用了Swift5的版本重写了一下，可以进行OC和Swift的版本进行对比
+A Swift 5 version has been added to replace the original Swift 3 example from the earlier tutorial. Many APIs have been deprecated or changed since then, so this version was rewritten using modern Swift 5 syntax. You can now compare the Objective-C and Swift implementations side by side.
